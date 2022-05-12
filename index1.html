@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <script src="./localstorage.js"></script>
+    
+    <title>PHOTO STORAGE</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<header>
+    <h1><a href="index.html">Registrarse</a></h1>
+</header>
+
+<body>
+
+    <h2 id="nombreusuario"></h2>
+    <style></style>
+   
+    <div class="ful-img" id="fulImgbox">
+        <img class="then" src="img/imagen1.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    
+    <div class="filtros">
+        <div  class="opt" >
+           <strong>Matiz</strong>
+            <input class="input" id="hue" type="range" data-default="0" value="100" min="0" max="360" step="1">
+        </div>
+        
+        <div class="opt">
+            <strong>Iluminacion</strong>
+            <input class="input" id="lig" type="range" data-default="0" value="1" min="0" max="3" step=".1" id="iluminacion">
+        </div>
+        <!-- <div class="btn">
+            <button id="tbndescargar" disabled>Descargar</button>
+            <a href="img.png" download="output.png">Download</a>
+           
+        </div> -->
+        <div class="descargar">
+        <a href="img1.jpg" download="img1.jpg">Download</a>
+    </div>
+    </div>
+        
+        
+        
+    </div>
+    <span class="title">PHOTO STORAGE</span>
+    <div class="img-gallery">
+        <img src="img/img1.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img12.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img3.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img4.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img5.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img6.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img7.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img8.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img9.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img10.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img11.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img2.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img13.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img14.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+        <img src="img/img15.jpg" onclick="openFulImg(this.src)" width="300" height="300" alt="">
+    </div>
+    <script src="script.js"></script>
+    <script src="./nombre.js"></script>
+</body>
+</html>
